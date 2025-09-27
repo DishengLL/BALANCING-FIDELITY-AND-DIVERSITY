@@ -3,3 +3,7 @@ In this repository, we provide the code for the paper: **Balancing Fidelity and 
 In the overall pipeline, we first extract image features and compute a score for each synthetic image based on these features. After scoring, we select synthetic samples accordingly and use them to train the target models.
 
 ![Scoring Pipeline](./imgs/github_teaser.png)
+
+
+In this repository, we provide the code for feature extraction, scoring, and selection stages of the overall pipeline. For downstream model training, we adapt code from public repositories such as [timm](https://github.com/rwightman/pytorch-image-models).
+
